@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!--
+    The Theatrenama Studios mark: a "T" built from the stage itself.
+    The crossbar is a scalloped curtain pelmet, the stem a spotlight beam
+    that lands as a pool of light. Gold on a burgundy disc.
+  -->
+  <defs>
+    <radialGradient id="disc" cx="50%" cy="30%" r="75%">
+      <stop offset="0" stop-color="#a8294c"/>
+      <stop offset="1" stop-color="#5c0f24"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f3dcaa"/>
+      <stop offset="1" stop-color="#e2bd72" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <circle cx="32" cy="32" r="31" fill="url(#disc)"/>
+  <circle cx="32" cy="32" r="27.6" fill="none" stroke="#e2bd72" stroke-opacity="0.55" stroke-width="1.1"/>
+  <path d="M14.5 15.5H49.5V21Q45.1 27 40.75 21Q36.4 27 32 21Q27.6 27 23.25 21Q18.9 27 14.5 21Z" fill="#e2bd72"/>
+  <path d="M28.8 24.2H35.2L38.6 47.6H25.4Z" fill="url(#beam)"/>
+  <ellipse cx="32" cy="48.4" rx="10.5" ry="2.4" fill="#f3dcaa"/>
+</svg>
